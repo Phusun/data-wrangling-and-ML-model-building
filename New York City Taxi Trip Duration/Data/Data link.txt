@@ -1,0 +1,3 @@
+train.zip: https://www.kaggle.com/c/nyc-taxi-trip-duration/download/train.zip
+
+test.zip: https://www.kaggle.com/c/nyc-taxi-trip-duration/download/test.zip
