@@ -1,19 +1,19 @@
 ## Data
 A variety of data sources were used to pull together all the features utilized in the machine learning algorithm. 
-Housing data was pulled from:
-	https://www.redfin.com/blog/data-center/
-	https://www.zillow.com/research/data/
-Stock market data was pulled from:
-	https://finance.yahoo.com/most-active
-Macroeconomic data was pulled from:
-	https://fred.stlouisfed.org/
-	https://www.governing.com/gov-data/other/city-construction-building-permits-data-totals.html
-	https://www.bls.gov/bls/news-release/metro.htm
-	https://www.fhfa.gov/DataTools/Downloads/Pages/House-Price-Index-Datasets.aspx
-	http://www.freddiemac.com/research/indices/house-price-index.page
-	https://www.bls.gov/eag/
-	https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas
-	https://www.census.gov/housing/hvs/data/ann15ind.html.
+Housing data was pulled from:  
+	https://www.redfin.com/blog/data-center/  
+	https://www.zillow.com/research/data/  
+Stock market data was pulled from:  
+	https://finance.yahoo.com/most-active  
+Macroeconomic data was pulled from:  
+	https://fred.stlouisfed.org/  
+	https://www.governing.com/gov-data/other/city-construction-building-permits-data-totals.html  
+	https://www.bls.gov/bls/news-release/metro.htm  
+	https://www.fhfa.gov/DataTools/Downloads/Pages/House-Price-Index-Datasets.aspx  
+	http://www.freddiemac.com/research/indices/house-price-index.page  
+	https://www.bls.gov/eag/  
+	https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas  
+	https://www.census.gov/housing/hvs/data/ann15ind.html.  
 
 ## Data Manipulation
 buildDataset.py was designed to build a clean CSV of X and Y values for the machine learning algorithm.
