@@ -1,14 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr 21 18:49:47 2020
-
-@author: Team17
-"""
-
-
-"""
-Load Package
+Load various packages
 """
 !pip install transformers
 from pyspark.sql import SparkSession
@@ -88,7 +81,7 @@ df_icu = spark.read.format(file_type) \
   .load(file_location)  
   
 """
-Get Valid Note
+Get Valid Notes
 """
 # Keep useful columns - SUBJECT_ID, HADM_ID, CHARTDATE, CATEGORY, ISERROR and TEXT
 df_notes_red = df_notes.select([c for c in df_notes.columns if c not in ['ROW_ID', 'CHARTTIME', 'STORETIME', 'DESCRIPTION', 'CGID']])
