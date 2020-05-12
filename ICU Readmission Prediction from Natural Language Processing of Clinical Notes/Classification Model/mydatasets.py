@@ -19,9 +19,8 @@ class VisitSequenceWithLabelDataset(Dataset):
 
 		self.labels = labels
 
-		# Complete this constructor to make self.seqs as a List of which each element represent visits of a patient
+		# Make self.seqs as a List of which each element represent visits of a patient
 		# by Numpy matrix where i-th row represents i-th visit and j-th column represent the feature ID j.
-		# You can use Sparse matrix type for memory efficiency if you want.
 		# self.seqs = [i for i in range(len(labels))]  # replace this with your implementation.
 
 		self.seqs = seqs
