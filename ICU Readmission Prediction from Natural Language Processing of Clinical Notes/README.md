@@ -1,12 +1,16 @@
-# Data preprocessing
+## Data
+This project makes use of restricted MIMIC-III database. Access to MIMIC-III can be requested here:
+https://mimic.physionet.org/gettingstarted/access/#requesting-access
+
+## Data preprocessing
 ETL/ETLpyspark.py implements the data preprocessing and feature extraction with pretrained BERT model,
 which was accomplished in Databricks(scala 2.2.0.)
 
-WARNING: Without a GPU, it will take a long time to generate sequence and label dataset
+WARNING: Without a GPU, it will take a really long time to generate sequence and label dataset
 
-You can easily download the generated train, validation and test data from https://drive.google.com/drive/folders/1inCZ5_rLTs5O8bQ_bm4sG7pBk3O7TobR?usp=sharing
+It's advisable to download the generated train, validation and test data from: https://drive.google.com/drive/folders/1inCZ5_rLTs5O8bQ_bm4sG7pBk3O7TobR?usp=sharing
 
-# Model Training and Performance on Test Set:
+## Model Training and Performance on Test Set:
 - Generate or download pretrained feature matrices and labels in training, validation and testing set
 - Place the data into processed/TF-IDF or processed/pretrained_BERT
 	Under processed/pretrained_BERT, select one of these subfolders: 
