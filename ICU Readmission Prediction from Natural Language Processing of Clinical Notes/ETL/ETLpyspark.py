@@ -39,10 +39,10 @@ Connect to S3
 import urllib
 import urllib.parse
 
-ACCESS_KEY = "AKIAYM5PPQ5XOOKQS75K"
-SECRET_KEY = "YUYR4RcKZ4iSS4e4%2FuUkIRdWF6F9gKYcpdowMdFJ"
+ACCESS_KEY = "######################"
+SECRET_KEY = "#######################################"
 ENCODED_SECRET_KEY = urllib.parse.quote(SECRET_KEY, "")
-AWS_BUCKET_NAME = "team17nlp"
+AWS_BUCKET_NAME = "#############"
 MOUNT_NAME = "s3data"
 
 """
