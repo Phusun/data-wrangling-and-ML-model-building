@@ -36,8 +36,8 @@ GridSeachCV in scikit-learn library is used to come up with the best set of para
 Very important: if you want to use data with missing predictor/feature values, only use xgboost as your ML model choice. Unavailable Y data for certain years is not an issue and all scripts can handle it.
 A more detailed description of each of the three ML scripts follow below:
 
-	a) ensemblePrediction.py: makes predictions for a random test split of the given data. These predictions are not true forecasts since there are randomly selected data points. This is our benchmark for this project since most other work on this topic are about predicting with ML.
+### ensemblePrediction.py: makes predictions for a random test split of the given data. These predictions are not true forecasts since there are randomly selected data points. This is our benchmark for this project since most other work on this topic are about predicting with ML.
 
-	b) ensembleForecast.py: makes 1, 2 and 3 years forecasts based on the data for the prior year(s). For ex., a 1, 2 and 3 year forecast based on 2018 will be sale to list ratio for 2019, 2020 and 2021.
+### ensembleForecast.py: makes 1, 2 and 3 years forecasts based on the data for the prior year(s). For ex., a 1, 2 and 3 year forecast based on 2018 will be sale to list ratio for 2019, 2020 and 2021.
 
-	c) ensembleForecast2018Data.py: makes 1, 2 and 3 years forecast for a given year. Although the given year is set as 2018, it can be changed by the user inside the script. Uses all the prior data to train the models.
+### ensembleForecast2018Data.py: makes 1, 2 and 3 years forecast for a given year. Although the given year is set as 2018, it can be changed by the user inside the script. Uses all the prior data to train the models.
